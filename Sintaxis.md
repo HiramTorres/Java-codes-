@@ -36,10 +36,13 @@
 | Tipos de datos primitivos | Información representada | Rango      |
 |---------------------------|--------------------------|------------|
 |**byte**                   |Datos enteros             |-128 al +127
-|**short**                  |Datos enteros             |
-|**int**                    |Datos enteros             |
-|**long**                   |Datos enteros             |
-|**char**
-|**float**
-|**double**
-|**boolean**
+|**short**                  |Datos enteros             |-32.768 al +32.767
+|**int**                    |Datos enteros             |-2147483648 al +2147483647
+|**long**                   |Datos enteros             |-9223372036854775808 al +9223372036854775807
+|**char**                   |Datos enteros y caracteres|0 al 65535  |   
+|**float**                  |Datos en coma             |Flotante en 32 bits|
+|**double**                 |Datos en coma             |Flotante en 64 bits|
+|**boolean**                |Valores booleanos         |True/False
+
+
+
