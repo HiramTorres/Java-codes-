@@ -1,0 +1,1 @@
+### Repositorio para almacenar código en lenguaje de Java, prácticas escolares y proyectos de aprendizaje del mismo lenguaje 
