@@ -46,3 +46,26 @@
 
 
 
+
+## Variables de Clase 
+
+* Son variables cuyo valor es el mismo para la clase y para todas las instancias.
+* Palabra reservada _static_ se utiliza para la declaración de variables de clase 
+
+## Variables locales 
+
+* Son variables declaradas dentro de un método, se crean cuando el bloque inicia y se destruyen cuando finaliza la ejecución de dicho bloque. 
+
+### Ejemplo : 
+```
+class suma {
+    static int a=50; //Variable de clase
+
+    public static void main (String[] args){
+        int b=10, resultado=0; //Variables locales
+        resultado = a+b;
+        System.out.println("Elresultado de la suma es:"+ resultado);
+     }
+ } 
+ ```
+    
