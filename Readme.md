@@ -230,3 +230,181 @@ if (condicion){
 }
 ```
 
+
+## Ejemplos: 
+### if
+> Entra al bloque "if" solo cuando la edad es menor a 30 
+``` 
+int edad = 35;
+if(edad<30) {
+    //Cuando la edad es menor a 30 
+}
+```
+
+### if else 
+> Entra al bloque "if" solo cuando la edad es menor a 30, de lo contrario entra al bloque "else". 
+
+``` 
+int edad=35;
+
+if(edad<30){
+    //Cuando la edad es menor a 30
+}else{
+    //Cuando la edad es mayor a 30 
+}
+```
+
+
+### if else if
+> Se puede crear una estructura con diferentes casos, como se muestra en el código:
+```
+int edad=20;
+if(edad<18){
+    //Cuando la edad es menor a 18
+}else if(edad>25){
+    //Cuando la edad sea mayor a 25
+}else{
+    /*
+    Cuando la edad este entre 18 y 25 o visto de otra forma, cuando no entro en ninguna de kas cindiciones pasadas
+    */
+}
+```
+
+### if else - anidadas 
+> las instrucciones pueden anidarse para hacer múltiples validaciones, en este ejemplo ppodemos observar cómo entra en el bloque "else" porque la edad es mayor a 30, para luego entrar en el bloque  "if" que estáanidado dentro de esta, porque nombre es igual a juan.
+
+``` 
+int edad -35;
+String nombre = 'Juan';
+if (edad<30){
+    //Cuando la edad es menor a 30 
+}else{
+    //Cuando la edad es mayor a 30 
+    if(nombre==='Juan'){
+        //Cuando nombre es igual a Juan
+    }else{
+        //Cuando nombre sea diferente de juan
+    }
+}
+```
+## Estructura switch
+
+>La estructura switch es utilizada para comparar un valor con una serie de casos. Donde se compara el valor con cada uno de los "case", si el valor coincide con algunos de los casos, este es ejecutado. 
+
+``` 
+switch (valor){
+    case 'caso_1':{
+        //Ejecuta el caso 1
+        break
+    },
+    case 'caso_2':{
+        //Ejecuta el caso 2 
+        break
+    }
+    ...
+    default:
+        /*En caso de no encontrar coincidencia ejecuta este caso*/
+        break;
+        
+}
+```
+
+### Instrucciones switch 
+
+>Ejemplo cuando coincide con alguno de los casos definidos.
+En este caso como "mes" es igual a "febrero" entra en "case  'febrero'"
+
+``` 
+String mes = 'febrero';
+switch (mes){
+    case 'enero':
+        //Cuando mes es igual a enero 
+        break;
+    case 'febrero':
+        //Cuando mes es igual a febrero
+        break; 
+    case 'marzo':
+        //Cuando mes es igual a marzo 
+        break; 
+    default:
+        //Cuando no entro en ninguna de los casos
+        break;
+}
+```
+
+>Ejemplo cuando coincide con alguno de los casos definidos. En este caso como "mes" no coincide con ninguno de los casos definidos, por defecto entra en el bloque "default"
+
+``` 
+String mes='noviembre';
+switch (mes){
+    case 'enero':
+        // Cuando mes es igual a enero
+        break; 
+    case 'febrero':
+        //Cuando mes es igual a febrero
+        break; 
+    case 'marzo':
+        //Cuando mes es igual a marzo
+        break;
+    default:
+        //Cuando no entro en ninguno de los casos
+        break;
+    
+}
+``` 
+## Estructuras iterativas 
+### Instrucciones for
+>Las instrucciones for nos permiten ejecutar varias veces un bloque de código y su estructura es la siguiente: 
+``` 
+for (inicializacion; condicion;
+actualizacion){
+    //Sentencias a ejecutar
+}
+```
+Donde: 
+
+INICIALIZACIÓN: Es la declaración e inicialización de las variables
+
+CONDICIÓN: Es la condición que se evalúa en cada iteración  
+
+ACTUALIZACIÓN: Es la modificación de la variable que deben cumplir con la condición. 
+
+### Ejemplo:
+``` 
+for (int i = o;i<5;i++){
+    //Sentencias a ejecutar
+    System.out.,println('i:'+ i);
+}
+```
+### Instrucciones while 
+>Las instrucciones while se ejecuta mientras el valor de la confición sea verdadera.
+La condición se evalúa antes de la primera iteración. 
+
+``` 
+while (condicion){
+    //Sentencias a ejecutar
+}
+```
+>El bucle que se estará repitiendo mientras el valor sea menor a 10, y el valor se invrementará a uno en cada repetición. 
+``` 
+int valor = 0 ;
+while (valor<10){
+    valor = valor + 2
+}
+```
+Representación de la variable "valor" en cada iteración
+
+
+|ITERACIÓN   | VALOR |
+|------------|-------|
+|INICIAL     |   0   |
+|1           |   2   |
+|2           |   4   |
+|3           |   6   |
+|4           |   8   |
+|5           |  10   |
+|6           |   -   |
+
+>La iteración número 6 ya no se ejecuta porque el valor no es menor a 10 
+
+
