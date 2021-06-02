@@ -43,7 +43,7 @@
 |**float**                  |Datos en coma             |Flotante en 32 bits|
 |**double**                 |Datos en coma             |Flotante en 64 bits|
 |**boolean**                |Valores booleanos         |True/False
-
+----------------------------------
 
 
 
@@ -68,4 +68,112 @@ class suma {
      }
  } 
  ```
-    
+
+## Constantes 
+> Lugar de memoria donde se puede almacenar información, se le diceconstante por que su valor no puede cambiar durante toda la ejecución del programa. 
+
+### Declarar una constante 
+`final double PI = 3.1416;`
+> tipo de dato, nombre de variable, valor  
+
+### Ejemplo:
+```
+class AreaCirculo {
+    public static void main (String [] args){
+        final double PI=3.1416; // Constante 
+        double radio = 3.5, area;
+        area = PI*radio*radio;
+        System.out.println("El área del circulo es: "+ area);
+    }
+} 
+```
+
+## Operadores Aritméticas 
+
+| Operador        |Operación |
+|-----------------|----------|
+|+                |Suma      |
+|-                |Resta     |
+|*                |Multiplicación|
+|/                |División  |
+|%                |Módulo o resto de una división |
+
+
+### Ejemplo: 
+``` 
+int a=2, b=5, resultado;
+resultado =a*b; //resultado=10
+```
+
+## Racionales 
+Evaluan la igualdad y la magnitud 
+
+| Operador        |Operación        |
+|-----------------|-----------------|
+|<                |Menos que        |
+|>                |Mayor que        |
+|<=               |Menor o igual a  |
+|>=               |Mayor o igual a  |
+|!=               |Distinto         |
+|==               |Igual que        |
+ 
+
+
+### Ejemplo: 
+``` 
+int a=6, b=8;
+boolean resultado;
+resultado = a>b; // resultado = False
+``` 
+## Unitarios 
+Pueden realizar operaciones lógicas.
+
+| Operador        |Operación |
+|-----------------|----------|
+|&& o &           |Elresultado será true si ambos son true y    false en caso contrario       
+| ll o l          |el resultado seá false si ambos operadores son false y true en caso contrario.      |
+|!                |si el operando es true el resultado es false y si el operando es false el resultado es true|
+|^                |El resultado será true si un operando es true y el otro false, y false en caso contrario   |
+-----------------------------------------------------
+
+### Ejemplo: 
+``` 
+int =3, b=6;
+boolean resultado;
+resultado = a>b && a >= b;  //Resultado = false
+```
+
+## Lógicos 
+
+| Operador        |Operación                   |
+|-----------------|----------------------------|
+|~                |Complemento A1              |
+|-                |Cambio de signo del operador|
+|--               |Decemento                   |
+|++               |Incremento                  |
+
+
+
+### Ejemplo: 
+``` 
+int a=3, b=6;
+a++; //a incrementa a = 4
+b--; //b decrementa b = 5
+```
+
+## Asignación
+| Operador        |Operación                   |
+|-----------------|----------------------------|
+|=                |Asignación                  |
+|+=               |Suma de asignación          |
+|-=               |Resta de asignación         |
+|*=               |Multiplicación y asignación |
+|/=               |División y asignación       |
+|%=               |Módulo y asignación         |
+
+### Ejemplo:
+``` 
+int a = 15;
+a += 5; // a = 20, equivale a a= a+5
+```
+
