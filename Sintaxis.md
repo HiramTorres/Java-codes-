@@ -177,3 +177,56 @@ int a = 15;
 a += 5; // a = 20, equivale a a= a+5
 ```
 
+
+## Instrucciones if-else
+
+> La estructura if permite ejecutar un bloque de código si se cumple la condición 
+
+``` 
+if (condicion){
+        // si cumple la condición 
+}
+```
+
+>La estructura if-else cuenta con un bloque de código cuando falla la decisión 
+
+``` 
+if(condicion){
+    // Si es verdadero 
+}else{
+    // Si es falso
+}
+```
+
+> La estrucutura if-else-if acepta dos o más condiciones 
+
+``` 
+if (condicion){
+    // Si es verdadero
+}else if(condicion){
+    // Si es verdadero 
+}else if (condicion){
+    // Si es verdadero
+}else{
+    // Si es falso
+}
+```
+
+> La estructura if-else anidada permite tener más condiciones internamente 
+
+``` 
+if (condicion){
+    // Si es verdadero
+        if(condicion){
+            //Si es verdadero
+        }
+}else{
+    //Si es falso
+        if(condicion){
+            //si es verdadero
+        }else{
+            //si es falso
+        }
+}
+```
+
