@@ -448,3 +448,43 @@ public void mi_primer_metodo(){
     // instrucciones
 }
 ```
+
+# Modificadores de control de acceso 
+
+> ### Son los encargados de controlar el acceso, ya sea permitiendo o denegando una función a una clase.
+
+### Tabla: Modificadores de  control de acceso 
+
+|Modificador de control de acceso|Desde otro paquete (package)|Desde el mismo paquete (package)|Clase(class)|Subclase|
+| -- | -- | -- | -- | -- |
+|Público(public)                 |          o                 |              o                 |     o      |    o   |
+|Privado(private)                |          x                 |              x                 |     o      |    x   |
+|Protegido(protected)            |          x                 |              o                 |     o      |    o   |
+|Default(deafult)                |          x                 |              o                 |     o      |    x   |
+
+## Aplicación de los modificadores de control de acceso 
+
+> Público (public)
+``` 
+public class MiClase{
+
+}
+```
+
+>Protegido (protected)
+``` 
+public class MiClase {
+    protected String miVariable = "Variable privada"
+}
+```
+
+>Privado (private)
+``` 
+public class MiClase {
+    protected String miVariable = "Variable privada"
+
+    private void mi_funcion_privada(0){
+        //Instrucciones
+    }
+}
+```
