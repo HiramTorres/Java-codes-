@@ -1,37 +1,37 @@
-##  Declarar clases
+#  Declarar clases
 `public class Hola { 
     ...
 }` 
 
 
 
-## Declarar metodos 
+# Declarar metodos 
 `public static void main (String [] arg){
         ...
 }`
 
 >*_Los métodos son las funciones o procedimientos. El método principal y por donde inician los programas es el método main_*
 
-### Método main(): 
+## Método main(): 
 * Publico (public), puedes ser llamado desde cualquier lado. 
 * Estático (static), puede ser llamado sin necesidad de instanciar la clase. 
 * Vacío (void), no devuelve ningun valor 
 * (String [] args), admite una serie de parametros, en este caso ninguno 
 * El metodo se delimita entre llves {}
 
-## Comentarios en código 
+# Comentarios en código 
 
 
 * // cometarios de una sola linea 
 * /* "Texto" */ comentarios en varias lineas  
 
-## Sentencias (instruccion que se ejecutará)
+# Sentencias (instruccion que se ejecutará)
 `System.outprintln("Hola");`
 
  > Clase System con el atributo out con el metodo println      
 
 
-## Tipos de datos 
+# Tipos de datos 
 
 | Tipos de datos primitivos | Información representada | Rango      |
 |---------------------------|--------------------------|------------|
@@ -47,12 +47,12 @@
 
 
 
-## Variables de Clase 
+# Variables de Clase 
 
 * Son variables cuyo valor es el mismo para la clase y para todas las instancias.
 * Palabra reservada _static_ se utiliza para la declaración de variables de clase 
 
-## Variables locales 
+# Variables locales 
 
 * Son variables declaradas dentro de un método, se crean cuando el bloque inicia y se destruyen cuando finaliza la ejecución de dicho bloque. 
 
@@ -69,10 +69,10 @@ class suma {
  } 
  ```
 
-## Constantes 
+# Constantes 
 > Lugar de memoria donde se puede almacenar información, se le diceconstante por que su valor no puede cambiar durante toda la ejecución del programa. 
 
-### Declarar una constante 
+## Declarar una constante 
 `final double PI = 3.1416;`
 > tipo de dato, nombre de variable, valor  
 
@@ -88,7 +88,7 @@ class AreaCirculo {
 } 
 ```
 
-## Operadores Aritméticas 
+# Operadores Aritméticas 
 
 | Operador        |Operación |
 |-----------------|----------|
@@ -105,7 +105,7 @@ int a=2, b=5, resultado;
 resultado =a*b; //resultado=10
 ```
 
-## Racionales 
+# Racionales 
 Evaluan la igualdad y la magnitud 
 
 | Operador        |Operación        |
@@ -125,7 +125,7 @@ int a=6, b=8;
 boolean resultado;
 resultado = a>b; // resultado = False
 ``` 
-## Unitarios 
+# Unitarios 
 Pueden realizar operaciones lógicas.
 
 | Operador        |Operación |
@@ -143,7 +143,7 @@ boolean resultado;
 resultado = a>b && a >= b;  //Resultado = false
 ```
 
-## Lógicos 
+# Lógicos 
 
 | Operador        |Operación                   |
 |-----------------|----------------------------|
@@ -161,7 +161,7 @@ a++; //a incrementa a = 4
 b--; //b decrementa b = 5
 ```
 
-## Asignación
+# Asignación
 | Operador        |Operación                   |
 |-----------------|----------------------------|
 |=                |Asignación                  |
@@ -178,7 +178,7 @@ a += 5; // a = 20, equivale a a= a+5
 ```
 
 
-## Instrucciones if-else
+# Instrucciones if-else
 
 > La estructura if permite ejecutar un bloque de código si se cumple la condición 
 
@@ -232,7 +232,7 @@ if (condicion){
 
 
 ## Ejemplos: 
-### if
+## if
 > Entra al bloque "if" solo cuando la edad es menor a 30 
 ``` 
 int edad = 35;
@@ -241,7 +241,7 @@ if(edad<30) {
 }
 ```
 
-### if else 
+## if else 
 > Entra al bloque "if" solo cuando la edad es menor a 30, de lo contrario entra al bloque "else". 
 
 ``` 
@@ -255,7 +255,7 @@ if(edad<30){
 ```
 
 
-### if else if
+## if else if
 > Se puede crear una estructura con diferentes casos, como se muestra en el código:
 ```
 int edad=20;
@@ -270,7 +270,7 @@ if(edad<18){
 }
 ```
 
-### if else - anidadas 
+## if else - anidadas 
 > las instrucciones pueden anidarse para hacer múltiples validaciones, en este ejemplo ppodemos observar cómo entra en el bloque "else" porque la edad es mayor a 30, para luego entrar en el bloque  "if" que estáanidado dentro de esta, porque nombre es igual a juan.
 
 ``` 
@@ -287,7 +287,7 @@ if (edad<30){
     }
 }
 ```
-## Estructura switch
+# Estructura switch
 
 >La estructura switch es utilizada para comparar un valor con una serie de casos. Donde se compara el valor con cada uno de los "case", si el valor coincide con algunos de los casos, este es ejecutado. 
 
@@ -309,7 +309,7 @@ switch (valor){
 }
 ```
 
-### Instrucciones switch 
+## Instrucciones switch 
 
 >Ejemplo cuando coincide con alguno de los casos definidos.
 En este caso como "mes" es igual a "febrero" entra en "case  'febrero'"
@@ -352,8 +352,8 @@ switch (mes){
     
 }
 ``` 
-## Estructuras iterativas 
-### Instrucciones for
+# Estructuras iterativas 
+## Instrucciones for
 >Las instrucciones for nos permiten ejecutar varias veces un bloque de código y su estructura es la siguiente: 
 ``` 
 for (inicializacion; condicion;
@@ -376,7 +376,7 @@ for (int i = o;i<5;i++){
     System.out.,println('i:'+ i);
 }
 ```
-### Instrucciones while 
+## Instrucciones while 
 >Las instrucciones while se ejecuta mientras el valor de la confición sea verdadera.
 La condición se evalúa antes de la primera iteración. 
 
@@ -408,3 +408,43 @@ Representación de la variable "valor" en cada iteración
 >La iteración número 6 ya no se ejecuta porque el valor no es menor a 10 
 
 
+# Recursividad 
+
+> La recursividad es una técnica de la cual un método se manda llamar a si mismo en algún momento de su ejecución.
+
+``` 
+imprimirValor (valor)
+    mostrar(valor);
+    si valor es menor a 10 
+        llamar imprimirValor(valor+1)
+    en caso contrario
+        terminar
+```
+
+Método que se manda llamar a si mismo mientras el valor sea menor a 10, y el valor se incrementará a uno en cada repetición 
+
+> Nota: La palabra static es un modificador con el cual podemos acceder al método desde nuestro main
+
+En la siguiente imagen se ve el resultado de la recursividad : 
+
+![Imagen](Recursividad.png)
+
+
+# Declarar Funciones 
+
+> ### Las funciones sin un bloque de código (instrucciones), las cuales realiazan tareas especificas a las que nombran mediante su respectivo nombre.
+
+### Estructura
+
+    ``` 
+    modificador_de_control_de_acceso tipo_de_dato nombre_del_metodo(){
+        //instrucciones
+    }
+    ```
+
+### Ejemplo :
+``` 
+public void mi_primer_metodo(){
+    // instrucciones
+}
+```
