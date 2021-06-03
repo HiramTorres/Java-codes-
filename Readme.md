@@ -560,4 +560,63 @@ public boolean obtenerBoleano(){
 }
 ```
 
+# Arreglos 
+Los arreglos son una lista de datos del mismo tipo, las cuales nos sirven para agrupar variables. Es decir, imaginemos qie tenemos una lista de"n" número de alumnos, no creariamos una variable para cada alumno, más bien, en su lugar crearíamos un arreglo
+
+>Asignación de usuarios a su respectiva variable 
+
+``` 
+String alumnoJuan = "Juan Pérez";
+String alumnoJuan = "Raúl Rodriguez";
+String alumnoJuan = "josé Morales";
+```
+**_Es complicado definir tantas variables para cada alumno distinto_**
+ ### Declaración y creación 
+**_Podemos definir un arreglo de cualquiera de las siguientes dos formas:_**
+ ``` 
+ int nombre_1;
+ int nombre_2;
+ ```
+**_Definición y creación de una linea_**
+``` 
+int nombre_1 = new int[5];
+int nombre_2 = new int [5];
+```
+**_Creación_**
+``` 
+int nombre_1 = new int[5];
+int nombre_2 = new int [5];
+
+```
+>_Donde 5 es el máximo de datos a almacenar_
+
+# Arreglos unidimencionales 
+
+Son objetos donde podemos almacenar varios valores, todos apuntando a la musma variable, diferenciados por su posición mejor conocida como índice. 
+
+### Así se ve un arreglo unidimenconal 
+
+
+
+| tipo int | 0 | 1 | 2 | 3 | 4 | 5 |
+| -- | -- | -- | -- | -- | -- | -- |
+
+|tipo String|"indice 0" |"indice 1" |"indice 2" |"indice 3" |"indice 4" |"indice 5" |
+| -- | -- | -- | -- | -- | -- | -- |
+
+# Arreglos bidimensionales 
+
+Se define un arreglo bidimensional como una matriz de filas y columnas. 
+
+``` 
+String arregloBidimencional = new String[3][5]; 
+```
+![img](img/bidimensional.png)
+
+# Recorrido de un arreglo 
+
+Para hacer el recorrido de los elementos de un arreglo usamos las funciones iterativas (for, while, do-while, etc) 
+
+![img](img/while.png)
+![img](img/resultado.png)
 
