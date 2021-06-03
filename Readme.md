@@ -620,3 +620,4 @@ Para hacer el recorrido de los elementos de un arreglo usamos las funciones iter
 ![img](img/while.png)
 ![img](img/resultado.png)
 
+Fin :pencil:
