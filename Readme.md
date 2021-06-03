@@ -427,12 +427,12 @@ Método que se manda llamar a si mismo mientras el valor sea menor a 10, y el va
 
 En la siguiente imagen se ve el resultado de la recursividad : 
 
-![Imagen](Recursividad.png)
+![Imagen](img/Recursividad.png)
 
 
 # Declarar Funciones 
 
-> ### Las funciones sin un bloque de código (instrucciones), las cuales realiazan tareas especificas a las que nombran mediante su respectivo nombre.
+> #### Las funciones sin un bloque de código (instrucciones), las cuales realiazan tareas especificas a las que nombran mediante su respectivo nombre.
 
 ### Estructura
 
@@ -451,7 +451,7 @@ public void mi_primer_metodo(){
 
 # Modificadores de control de acceso 
 
-> ### Son los encargados de controlar el acceso, ya sea permitiendo o denegando una función a una clase.
+> #### Son los encargados de controlar el acceso, ya sea permitiendo o denegando una función a una clase.
 
 ### Tabla: Modificadores de  control de acceso 
 
@@ -488,3 +488,76 @@ public class MiClase {
     }
 }
 ```
+# Tipos de datos 
+> #### Son utilizados para definir los valores que pueden tomar las variables. Algunos  ejemplos de estos  son textos, números enteros, decimales y boleanos, entre otros.
+
+## Parámetros 
+
+Un parámetro es la expansión de la variable a otro ámbito. Los parámetros son utilizados para recibir valores que después pueden ser usados para realizar operaciones dentro de una función. 
+Para hacer uso de estos parámetros se envían argumentos, donde un argumento es el valor que se envía. 
+
+![Imagen](img/Funcion.png)
+
+![Imagen](img/usodeparametros.png)
+
+
+### Ejemplo de funciones con parámetros 
+
+>Función sin parámetros 
+``` 
+public void funcion(){
+
+}
+```
+> Función con un parámetro
+``` 
+public void funcion(int parametro){
+
+}
+```
+> Función con "n" número de parámetros 
+``` 
+public void funcion (int parametro, String parametro_2,...){
+
+}
+```
+
+# Variables locales y de clase 
+
+Las variables de clase, o también llamadas globales, resultan útiles cuando se quiere tener acceso a una variable en cualquier fragmento de código dentro de la clase, o del paquete, dependiendo del modificador de control de acceso que se le asigne. 
+Mientras qu elas variables locales son declaradas y usadas dentro del bloque de código. 
+
+![img](img/globales.png)
+
+# Retorno de valores 
+Las funciones no solo pueden realizar tareas y quedarse con la información generada, también pueden devolver esos resultados. 
+
+![ima](img/estructura.png)
+
+### Aplicación de retorno de valores 
+>Retorna un número entero 
+``` 
+public int ObtenerUnNumero(){
+    return 1;
+}
+```
+> Retorna un número decimal 
+``` 
+public double ObtenerDecimal(){
+    return 9.94;
+}
+```
+>Retorna un texto 
+``` 
+public String ObtenerUnaCadena(){
+    return "Hola Mundo!";
+}
+``` 
+> Retorna un boleano 
+``` 
+public boolean obtenerBoleano(){
+    return true;
+}
+```
+
+
