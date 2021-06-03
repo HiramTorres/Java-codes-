@@ -427,7 +427,7 @@ Método que se manda llamar a si mismo mientras el valor sea menor a 10, y el va
 
 En la siguiente imagen se ve el resultado de la recursividad : 
 
-![Imagen](img/Recursividad.png)
+![Imagen](Img/Recursividad.png)
 
 
 # Declarar Funciones 
@@ -496,9 +496,9 @@ public class MiClase {
 Un parámetro es la expansión de la variable a otro ámbito. Los parámetros son utilizados para recibir valores que después pueden ser usados para realizar operaciones dentro de una función. 
 Para hacer uso de estos parámetros se envían argumentos, donde un argumento es el valor que se envía. 
 
-![Imagen](img/Funcion.png)
+![Imagen](Img/Funcion.png)
 
-![Imagen](img/usodeparametros.png)
+![Imagen](Img/usodeparametros.png)
 
 
 ### Ejemplo de funciones con parámetros 
@@ -527,12 +527,12 @@ public void funcion (int parametro, String parametro_2,...){
 Las variables de clase, o también llamadas globales, resultan útiles cuando se quiere tener acceso a una variable en cualquier fragmento de código dentro de la clase, o del paquete, dependiendo del modificador de control de acceso que se le asigne. 
 Mientras qu elas variables locales son declaradas y usadas dentro del bloque de código. 
 
-![img](img/globales.png)
+![img](Img/globales.png)
 
 # Retorno de valores 
 Las funciones no solo pueden realizar tareas y quedarse con la información generada, también pueden devolver esos resultados. 
 
-![ima](img/estructura.png)
+![ima](Img/estructura.png)
 
 ### Aplicación de retorno de valores 
 >Retorna un número entero 
@@ -611,13 +611,13 @@ Se define un arreglo bidimensional como una matriz de filas y columnas.
 ``` 
 String arregloBidimencional = new String[3][5]; 
 ```
-![img](img/bidimensional.png)
+![img](Img/bidimensional.png)
 
 # Recorrido de un arreglo 
 
 Para hacer el recorrido de los elementos de un arreglo usamos las funciones iterativas (for, while, do-while, etc) 
 
-![img](img/while.png)
-![img](img/resultado.png)
+![img](Img/while.png)
+![img](Img/resultado.png)
 
 Fin :pencil:
