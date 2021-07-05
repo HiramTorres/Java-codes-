@@ -390,12 +390,14 @@ while (condicion){
 }
 ```
 >El bucle que se estará repitiendo mientras el valor sea menor a 10, y el valor se invrementará a uno en cada repetición. 
+
 ``` 
 int valor = 0 ;
 while (valor<10){
     valor = valor + 2
 }
 ```
+
 Representación de la variable "valor" en cada iteración
 
 
