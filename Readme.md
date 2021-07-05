@@ -1,5 +1,5 @@
-# Introducción al lenguaje de programación Java
-<img src="https://image.flaticon.com/icons/png/512/226/226777.png" width="200" height="200">
+# Introducción al lenguaje de programación Java <img src="https://image.flaticon.com/icons/png/512/226/226777.png" width="50" height="50">
+
 
 
 ##  Declarar clases
